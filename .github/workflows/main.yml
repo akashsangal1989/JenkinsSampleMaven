@@ -11,4 +11,4 @@ jobs:
           java-version: '11'
           distribution: 'temurin'
           cache: maven
-      - run: mvn test
+      - run: mvn -Dvalue1=akash -Dvalue2=sangal test
